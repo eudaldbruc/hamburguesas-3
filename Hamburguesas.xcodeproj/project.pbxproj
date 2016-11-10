@@ -12,6 +12,7 @@
 		D9FF97A41DCCEEE600D3B31C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9FF97A21DCCEEE600D3B31C /* Main.storyboard */; };
 		D9FF97A61DCCEEE600D3B31C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9FF97A51DCCEEE600D3B31C /* Assets.xcassets */; };
 		D9FF97A91DCCEEE600D3B31C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9FF97A71DCCEEE600D3B31C /* LaunchScreen.storyboard */; };
+		D9FF97B11DCCEFE500D3B31C /* Datos.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FF97B01DCCEFE500D3B31C /* Datos.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		D9FF97A51DCCEEE600D3B31C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9FF97A81DCCEEE600D3B31C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D9FF97AA1DCCEEE600D3B31C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9FF97B01DCCEFE500D3B31C /* Datos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Datos.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +62,17 @@
 				D9FF97A51DCCEEE600D3B31C /* Assets.xcassets */,
 				D9FF97A71DCCEEE600D3B31C /* LaunchScreen.storyboard */,
 				D9FF97AA1DCCEEE600D3B31C /* Info.plist */,
+				D9FF97B21DCCEFF000D3B31C /* Playgrounds */,
 			);
 			path = Hamburguesas;
+			sourceTree = "<group>";
+		};
+		D9FF97B21DCCEFF000D3B31C /* Playgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				D9FF97B01DCCEFE500D3B31C /* Datos.swift */,
+			);
+			name = Playgrounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 			files = (
 				D9FF97A11DCCEEE600D3B31C /* ViewController.swift in Sources */,
 				D9FF979F1DCCEEE600D3B31C /* AppDelegate.swift in Sources */,
+				D9FF97B11DCCEFE500D3B31C /* Datos.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

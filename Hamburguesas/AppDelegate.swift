@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  Hamburguesas
 //
-//  Created by Miguel Angel Muro Cajal on 4/11/16.
+//  Created by Eudald Bruc on 4/11/16.
 //  Copyright © 2016 EudaldBruc. All rights reserved.
 //
 
